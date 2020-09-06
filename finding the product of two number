@@ -1,0 +1,15 @@
+
+
+#include <iostream>
+int main(void)
+{
+    double a,b;
+    std::cout<<"Enter two number of your choice to be multiplied:\n";
+    std::cin>>a;
+    std::cin>>b;
+    double sum;
+    sum=a*b;
+    std::cout<<"Your product is:"<<sum;
+    std::cout<<"\n";
+}
+
